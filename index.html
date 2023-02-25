@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cambio de divisas</title>
+</head>
+<script src="javaScript.js"></script>
+<body onload="onStartup()">
+    <div class="formConteiner">
+    <form class="form">
+            <h3>CAMBIO DE DIVISAS</h3>
+            <p>Valor del dolar actualmente <span id="dolar_value"></span></p>
+            <p>Seleccionar moneda a cambiar</p>
+            <input type="radio" name="cambio" id="uno">Dolar
+            <input type="radio" name="cambio" id="dos">Euro
+            <p>Ingrese monto a cambiar en pesos</p>
+            <input type="number" id="valor" min="1" max="100000">
+            <input type="button" id="cotizador" value="Cotizar" onclick="convertir()">
+        </form>
+    </div>
+    
+</body>
+</html>

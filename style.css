@@ -1,0 +1,21 @@
+body{
+    background-color: lightslategray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formConteiner{
+    background-color: darkgoldenrod;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+}
+h3{
+    font-size: 30px;
+    color:whitesmoke;
+    font-family: fantasy;
+    font-weight: 300;
+}
+p{
+    font-size: 20px;
+}
